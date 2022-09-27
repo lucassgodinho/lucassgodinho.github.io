@@ -1,0 +1,202 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(200, 200, 200);
+    
+}
+
+.divtudo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divlinha {
+    clear: both;
+}
+table, td, th {
+    border-bottom: solid 1px #e2e2e2;
+    border-collapse:collapse;
+    padding: 7px;
+}
+th{
+  color:darkgrey;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+td{
+    font-size:14px;
+    text-align: center;
+}
+.imgclube{
+    width: 20px;
+    height: 20px;
+}
+
+/*elementos do cabecalho */
+
+#divcabecalho {
+    background-color: #162581;
+    min-height: 100px;
+    padding: 20px 50px 10px 50px;
+    position: relative;
+}
+
+#h1titulocabecalho {
+    color: white;
+    font-size: 16px;
+    float: left;
+    text-align: left;
+    min-width: 50%;
+}
+.divMenu{
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    clear:both;
+    text-align:center;
+    padding-left:21%;
+    padding-right:21%;
+    text-align:center;
+}
+.itemMenu{
+   float:left;
+   color:#ffffff;
+   text-align: center;
+   width:12.5;
+   height:40px;
+}
+.itemMenu:houver{
+    background-color: black;
+}
+
+/*elementos das tabelas de classificacao*/
+#divclassificacao {
+    width: 50%;
+    background-color: white;
+}
+
+.tableclassificacao {
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.h3titulogrupo {
+    font-size: 14px;
+    padding: 5px 5px 5px 5px;
+}
+
+.h2titulosessao{
+    font-size: 20px;
+    margin: 10px;
+    text-align: left;
+}
+.divempate{
+background-image: url("../../img/e.svg");
+background-repeat: no-repeat;
+height: 16px;
+width: 16px;
+float:left;
+margin-right: 5px;
+}
+.divvitoria{
+background-image: url("../../img/v.svg");
+background-repeat: no-repeat;
+height: 16px;
+width: 16px;
+float:left;
+margin-right: 5px;
+}
+.divderrota{
+background-image: url("../../img/d.svg");
+background-repeat: no-repeat;
+height: 16px;
+width: 16px;
+float:left;
+margin-right: 5px;
+}
+.tdposicao{
+    width:3%;
+    font-size: 14px;
+}
+.tdimgclube{
+   width:5%;
+}
+.tdnomeclube{
+    width:40%;
+    text-align: center;
+}
+.thutilmas{
+    width:20%;
+}
+.thnomeclube{
+    text-align: left;
+    width:50%;
+}
+.tdjogador{
+    width:90%;
+    text-align: left;
+}
+.spannomeclube{
+    color:#e2e2e2;
+    font-size: 12px;
+}
+#tablegoleadores td{
+    padding:20px 10px 10px 10px
+     100%;
+}
+/*elementos da tabela de goleadores */
+#divgoleadores {
+    width:100%;
+    background-color: white;
+}
+
+#tablegoleadores {
+    width: 100%;
+}
+
+/*elementos dos proximos jogos */
+#divjogos{
+    width:100%;
+    background-color: white;
+    padding:bottom 40px;
+}
+
+#table{
+    width: 100%;
+    text-align: center;
+}
+
+#tableJogos{
+    width: 100%;
+    background-color: #ffffff 
+
+}
+.tableJogo{
+    width: 100%;;
+}
+.tableJogo th{
+text-align: left;
+}
+.tablejogo .thtableJogo{
+    padding:10px 10px 10px 10px;
+}
+.tableJogo .tdclube{
+    width: 70%;
+    text-align:center;
+}
+.tableJogo .tdHorario{
+    width:30%;
+    font-size: 8px;
+}
+#tableJogos th , #tableJogos td{
+    margin: bottom 0px;
+    border-bottom:0px;
+}
+table, td, th{
+    border-bottom:solid 1px #e2e2e2;
+    border-collapse:collapse;
+    padding: 7px;
+}
